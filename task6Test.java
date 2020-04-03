@@ -86,6 +86,7 @@ class task6Test {
 	@Test
 	public void testFollow1() {
 		CFG cfg = new CFG(cfg1);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow1, followEncoding);
 	}
@@ -100,6 +101,7 @@ class task6Test {
 	@Test
 	public void testFollow2() {
 		CFG cfg = new CFG(cfg2);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow2, followEncoding);
 	}
@@ -114,6 +116,7 @@ class task6Test {
 	@Test
 	public void testFollow3() {
 		CFG cfg = new CFG(cfg3);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow3, followEncoding);
 	}
@@ -128,6 +131,7 @@ class task6Test {
 	@Test
 	public void testFollow4() {
 		CFG cfg = new CFG(cfg4);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow4, followEncoding);
 	}
@@ -142,6 +146,7 @@ class task6Test {
 	@Test
 	public void testFollow5() {
 		CFG cfg = new CFG(cfg5);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow5, followEncoding);
 	}
@@ -156,6 +161,7 @@ class task6Test {
 	@Test
 	public void testFollow6() {
 		CFG cfg = new CFG(cfg6);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow6, followEncoding);
 	}
@@ -170,6 +176,7 @@ class task6Test {
 	@Test
 	public void testFollow7() {
 		CFG cfg = new CFG(cfg7);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow7, followEncoding);
 	}
@@ -184,6 +191,7 @@ class task6Test {
 	@Test
 	public void testFollow8() {
 		CFG cfg = new CFG(cfg8);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow8, followEncoding);
 	}
@@ -198,6 +206,7 @@ class task6Test {
 	@Test
 	public void testFollow9() {
 		CFG cfg = new CFG(cfg9);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow9, followEncoding);
 	}
@@ -212,6 +221,7 @@ class task6Test {
 	@Test
 	public void testFollow10() {
 		CFG cfg = new CFG(cfg10);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow10, followEncoding);
 	}
@@ -226,6 +236,7 @@ class task6Test {
 	@Test
 	public void testFollow11() {
 		CFG cfg = new CFG(cfg11);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow11, followEncoding);
 	}
@@ -240,6 +251,7 @@ class task6Test {
 	@Test
 	public void testFollow12() {
 		CFG cfg = new CFG(cfg12);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow12, followEncoding);
 	}
@@ -254,6 +266,7 @@ class task6Test {
 	@Test
 	public void testFollow13() {
 		CFG cfg = new CFG(cfg13);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow13, followEncoding);
 	}
@@ -268,6 +281,7 @@ class task6Test {
 	@Test
 	public void testFollow14() {
 		CFG cfg = new CFG(cfg14);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow14, followEncoding);
 	}
@@ -282,6 +296,7 @@ class task6Test {
 	@Test
 	public void testFollow15() {
 		CFG cfg = new CFG(cfg15);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow15, followEncoding);
 	}
@@ -296,6 +311,7 @@ class task6Test {
 	@Test
 	public void testFollow16() {
 		CFG cfg = new CFG(cfg16);
+		cfg.First();
 		String followEncoding = cfg.Follow();
 		assertEquals(follow16, followEncoding);
 	}
