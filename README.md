@@ -1,3 +1,14 @@
+# task7Test
+
+clone the repo, cd to the repo and run the following :
+```
+python textReplacer.py -n "your_Class_Name"
+```
+Or just simply open task7Test.java and search and replace each occurance of Tutorial_ID_Name with your class name.
+
+Then put task7Test.java in the same dir as your file for task7 and run :D !
+
+
 # task6Test
 
 Add task6Test.java to the same dir as your task6.java file and run.
