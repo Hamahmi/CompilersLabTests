@@ -1,3 +1,29 @@
+# task8Test
+put task8Test in the same dir as your T07_37_1234_John_Smith.g4 and antlr, after running antlr and compiled.
+run the following :
+```
+python task8Test.py -n T07_37_1234_John_Smith
+```
+for the basic test set (the test cases from the task are present)
+
+or if you want a random test cases put the flag -r, and also you can specify the number of test cases using -s Number
+```
+python task8Test.py -n T07_37_1234_John_Smith -r -s 23
+```
+
+```
+python task8Test.py -h
+usage: task8Test.py [-h] --name NAME [--random] [--size SIZE]
+
+Task 8 Test
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --name NAME, -n NAME  Your file name : T07_37_1234_John_Smith
+  --random, -r          add -r or --random to get randomized test cases
+  --size SIZE, -s SIZE  if you used the random option, you can set the number
+```
+
 # task7Test
 
 clone the repo, cd to the repo and run the following :
