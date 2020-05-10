@@ -1,3 +1,9 @@
+# task9Test
+same as task8Test but without -t, and added -p for printing the test cases.
+```
+python task9Test.py -n T07_37_1234_John_Smith -r -s 10 -p
+```
+
 # task8Test
 put task8Test in the same dir as your T07_37_1234_John_Smith.g4 and antlr, after running antlr and compiled.
 run the following :
