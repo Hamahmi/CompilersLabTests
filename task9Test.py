@@ -116,7 +116,10 @@ if __name__ == "__main__":
         i += 1
         print("{:.1f}".format(i / test_size * 100.0) + " %", end="\r")
 
-    os.system("del temp.txt")
+    if(sys.platform.startswith("win")):
+        os.system("del temp.txt")
+    else:
+        os.system("rm temp.txt")
     print()
     if wrong == {}:
         print("Passed all " + str(test_size) + " test cases :)")
