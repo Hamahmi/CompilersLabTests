@@ -1,3 +1,10 @@
+# task10Test
+same as task9Test
+```
+python task10Test.py -n T07_37_1234_John_Smith -r -s 10 -p
+```
+
+
 # task9Test
 same as task8Test but without -t, and added -p for printing the test cases.
 ```
