@@ -135,7 +135,7 @@ if __name__ == "__main__":
             print(
                 "In test case : "
                 + case
-                + " your grammar outputs : "
+                + " the output : "
                 + outputs[0]
                 + " was expected, but got : "
                 + outputs[1],
